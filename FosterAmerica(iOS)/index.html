@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<title>Foster Trivia</title>
+		<link rel="stylesheet" href="css/homepage.css">
+
+	</head>
+  <div class="dropdown">
+    <img onclick="myFunction()" class="dropbtn" src="images/Windows_Settings_app_icon.png">
+    <div id="myDropdown" class="dropdown-content">
+    <a href="#"><img class="speaker" src="images/speaker2.png" id="image1" onmousedown="mute(); diffImage(this);"></a>
+    <a href="#"><img class="speaker" src="images/menubutton2.png" id="image2" onmousedown="levelSelect()"></a>
+    <a href="#"><img class="speaker" src="images/fosteramericalogo.png" id="image3" onmousedown="email()"></a>
+   </div>
+   </div>
+	<body>
+
+  		<h1>
+  			Foster Trivia: Improve Your Foster IQ!
+  		</h1>
+  		<p onmousedown="levelSelect()">
+  			Tap Here to Play
+  		</p>
+     <!--embed id="music1" loop="true" hidden="true" src="music/bensound-straight.mp3"></embed-->
+  <audio id="music1" autoplay loop="true">
+  <source src="music/bensound-straight.ogg" type="audio/ogg" muted="false">
+  <source src="music/bensound-straight.mp3" type="audio/mpeg" muted="false">
+  Your browser does not support the audio tag.
+  </audio>
+  
+     
+
+  		<script type="text/javascript" src="javascript/homepage.js">
+  		</script>
+
+  </body>
+
+</html>

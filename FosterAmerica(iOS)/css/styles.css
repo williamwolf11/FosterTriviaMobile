@@ -1,0 +1,16 @@
+body{
+  max-width: 1000px;
+  margin:auto;
+  background-color: lavender;
+  text-align: center;
+  padding-top: 150px;
+  font-size: 150%;
+
+
+  }
+  h1{
+    color: midnightblue;
+  }
+  p{
+    color: gray;
+  }
